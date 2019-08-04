@@ -4,10 +4,10 @@ const hotDogController = require('../controllers/HotDogController');
 
 router.get('/getAll', hotDogController.getHotDogs);
 
-router.post('/create', hotDogController.createHotDog);
+router.post('/hotdog', hotDogController.createHotDog);
 
-router.put('/update', hotDogController.updateHotDog);
+router.put('/hotdog', hotDogController.updateHotDog);
 
-router.delete('/delete', hotDogController.deleteHotDog);
+router.delete('/hotdog', hotDogController.deleteHotDog);
 
 module.exports = router;
